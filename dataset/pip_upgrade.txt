@@ -1,5 +1,19 @@
+# 설치순서
+1. 파이썬 3.7.4 설치(설치 시 환경변수 path에 경로 등록하도록 설정)
+2. pip upgrade: python -m pip install --upgrade pip
+3. pip install -r requirements_py.txt 명령어로 패키지 일괄 설치
+
+
+[pip upgrade]
 python -m pip install --upgrade pip
-
 or
-
 pip install --upgrade pip
+
+# 바탕화면 바로가기 단축키 작성
+
+[바로가기]
+- 항목 위치 입력: cmd /k jupyter notebook
+- 시작 위치: 자기가 원하는 폴더 지정
+
+[아나콘다 버전 바로가기]
+C:\Anaconda3\python.exe C:\Anaconda3\cwp.py C:\Anaconda3 C:\Anaconda3\python.exe C:\Anaconda3\Scripts\jupyter-notebook-script.py "%USERPROFILE%/"
